@@ -19,14 +19,14 @@ class App extends React.Component{
   render(){
     console.log(`Rendering with count:-${this.state.count}`)
     
-    if(this.state.count % 2 === 0 {
+    if(this.state.count % 2 === 0) {
       
     return(
       <div>
         <span id="count">{this.state.count}</span>
         <button id="incr-btn" onClick={this.handleClick}>Increment</button>
       </div>
-    )
+    );
     
   }
     return null;
